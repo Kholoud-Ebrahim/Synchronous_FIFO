@@ -1,0 +1,79 @@
+# do run.do 
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling module synch_fifo
+# 
+# Top level modules:
+# 	synch_fifo
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling package fifo_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Note: (vlog-2286) Using implicit +incdir+D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: E:/UVM/Synch_FIFO/tb/seq_lib//fifo_base_sequence.svh(1): (vlog-2181) Use of a parameterized class uvm_sequence as a type creates a default specialization.
+# ** Error: E:/UVM/Synch_FIFO/tb/fifo_pkg.sv(13): Cannot find `include file "fifo_scoreboard.svh" in directories:
+#     E:/UVM/Synch_FIFO/, E:/UVM/Synch_FIFO/tb/fifo_agent/, E:/UVM/Synch_FIFO/tb/seq_lib/, D:/questasim_10.0b/ovm-2.1.1/../verilog_src/ovm-2.1.1/src, D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src
+# ** Error: E:/UVM/Synch_FIFO/tb/fifo_pkg.sv(14): Cannot find `include file "fifo_coverage_collector.svh" in directories:
+#     E:/UVM/Synch_FIFO/, E:/UVM/Synch_FIFO/tb/fifo_agent/, E:/UVM/Synch_FIFO/tb/seq_lib/, D:/questasim_10.0b/ovm-2.1.1/../verilog_src/ovm-2.1.1/src, D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src
+# ** Error: E:/UVM/Synch_FIFO/tb/fifo_pkg.sv(15): Cannot find `include file "fifo_environment.svh" in directories:
+#     E:/UVM/Synch_FIFO/, E:/UVM/Synch_FIFO/tb/fifo_agent/, E:/UVM/Synch_FIFO/tb/seq_lib/, D:/questasim_10.0b/ovm-2.1.1/../verilog_src/ovm-2.1.1/src, D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src
+# ** Error: E:/UVM/Synch_FIFO/tb/fifo_pkg.sv(16): Cannot find `include file "fifo_test.svh" in directories:
+#     E:/UVM/Synch_FIFO/, E:/UVM/Synch_FIFO/tb/fifo_agent/, E:/UVM/Synch_FIFO/tb/seq_lib/, D:/questasim_10.0b/ovm-2.1.1/../verilog_src/ovm-2.1.1/src, D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src
+# -- Compiling interface synch_fifo_intf
+# ** Error: E:/UVM/Synch_FIFO/tb/fifo_top.sv(4): Could not find the package (fifo_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+# ** Error: D:/questasim_10.0b/win32/vlog failed.
+# Error in macro ./run.do line 17
+# D:/questasim_10.0b/win32/vlog failed.
+#     while executing
+# "vlog -f fifo_tb.f"
+#  
+# No design specified
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling module synch_fifo
+# 
+# Top level modules:
+# 	synch_fifo
+# QuestaSim vlog 10.0b Compiler 2011.05 May  5 2011
+# -- Compiling package fifo_pkg
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# ** Note: (vlog-2286) Using implicit +incdir+D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src from import uvm_pkg
+# ** Warning: E:/UVM/Synch_FIFO/tb/seq_lib//fifo_base_sequence.svh(1): (vlog-2181) Use of a parameterized class uvm_sequence as a type creates a default specialization.
+# -- Compiling interface synch_fifo_intf
+# -- Compiling package fifo_top_sv_unit
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)
+# -- Importing package fifo_pkg
+# ** Warning: E:/UVM/Synch_FIFO/tb/seq_lib//fifo_base_sequence.svh(1): (vlog-2181) Use of a parameterized class uvm_sequence as a type creates a default specialization.
+# -- Compiling module fifo_top
+# 
+# Top level modules:
+# 	fifo_top
+# QuestaSim vopt 10.0b Compiler 2011.05 May  5 2011
+# 
+# Top level modules:
+# 	fifo_top
+# 
+# Analyzing design...
+# -- Loading module fifo_top
+# -- Loading interface synch_fifo_intf
+# -- Loading module synch_fifo
+# Optimizing 6 design-units (inlining 0 instances):
+# -- Processing module synch_fifo_intf(fast) for debug
+# -- Processing module synch_fifo(fast) for debug
+# ** Note: (vopt-4301) Memory core inferred for signal 'mem' width=8, depth=128, type=RAM at location E:/UVM/Synch_FIFO/rtl/synch_fifo.v:11
+# -- Processing module fifo_top(fast) for debug
+# Optimized design name is top_opt_dbg
+# QuestaSim vopt 10.0b Compiler 2011.05 May  5 2011
+# 
+# Top level modules:
+# 	fifo_top
+# 
+# Analyzing design...
+# -- Loading module fifo_top
+# -- Loading interface synch_fifo_intf
+# -- Loading module synch_fifo
+# Optimizing 6 design-units (inlining 0 instances):
+# -- Optimizing package mtiUvm.uvm_pkg (uvm-1.0p1 Built-in)(fast)
+# -- Optimizing package fifo_pkg(fast)
+# -- Optimizing package fifo_top_sv_unit(fast)
+# -- Optimizing interface synch_fifo_intf(fast)
+# -- Optimizing module synch_fifo(fast)
+# -- Optimizing module fifo_top(fast)
+# Optimized design name is top_opt

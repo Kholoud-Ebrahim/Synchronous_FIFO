@@ -1,0 +1,150 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\UVM\Synch_FIFO\sim
+Xfifo_pkg
+Z1 DXx6 sv_std 3 std 0 22 :CP]PHbGOHGT_H:3KF`8L2
+Z2 DXx6 mtiUvm 7 uvm_pkg 0 22 8eb@ESBO]d@L>K^c5RzQ31
+Z3 I`kSl39lQJ@7F4HI_1iGA<3
+Z4 V`kSl39lQJ@7F4HI_1iGA<3
+S1
+Z5 dE:\UVM\Synch_FIFO\sim
+Z6 w1691968895
+Z7 8E:/UVM/Synch_FIFO/tb/fifo_pkg.sv
+Z8 FE:/UVM/Synch_FIFO/tb/fifo_pkg.sv
+Z9 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/uvm_macros.svh
+Z10 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_version_defines.svh
+Z11 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_message_defines.svh
+Z12 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_phase_defines.svh
+Z13 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_object_defines.svh
+Z14 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_printer_defines.svh
+Z15 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_tlm_defines.svh
+Z16 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/tlm1/uvm_tlm_imps.svh
+Z17 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_sequence_defines.svh
+Z18 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_callback_defines.svh
+Z19 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_reg_defines.svh
+Z20 FD:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_deprecated_defines.svh
+Z21 FE:/UVM/Synch_FIFO/tb/fifo_agent//fifo_sequence_item.svh
+Z22 FE:/UVM/Synch_FIFO/tb/seq_lib//fifo_base_sequence.svh
+Z23 FE:/UVM/Synch_FIFO/tb/seq_lib//fifo_write_sequence.svh
+Z24 FE:/UVM/Synch_FIFO/tb/seq_lib//fifo_read_sequence.svh
+Z25 FE:/UVM/Synch_FIFO/tb/fifo_agent//fifo_sequencer.svh
+Z26 FE:/UVM/Synch_FIFO/tb/fifo_agent//fifo_driver.svh
+Z27 FE:/UVM/Synch_FIFO/tb/fifo_agent//fifo_monitor.svh
+Z28 FE:/UVM/Synch_FIFO/tb/fifo_agent//fifo_agent.svh
+Z29 FE:/UVM/Synch_FIFO/tb//fifo_scoreboard.svh
+Z30 FE:/UVM/Synch_FIFO/tb//fifo_coverage_collector.svh
+Z31 FE:/UVM/Synch_FIFO/tb//fifo_environment.svh
+Z32 FE:/UVM/Synch_FIFO/tb//fifo_test.svh
+L0 1
+Z33 OE;L;10.0b;49
+r1
+31
+Z34 !s108 1691971841.570000
+Z35 !s107 E:/UVM/Synch_FIFO/tb//fifo_test.svh|E:/UVM/Synch_FIFO/tb//fifo_environment.svh|E:/UVM/Synch_FIFO/tb//fifo_coverage_collector.svh|E:/UVM/Synch_FIFO/tb//fifo_scoreboard.svh|E:/UVM/Synch_FIFO/tb/fifo_agent//fifo_agent.svh|E:/UVM/Synch_FIFO/tb/fifo_agent//fifo_monitor.svh|E:/UVM/Synch_FIFO/tb/fifo_agent//fifo_driver.svh|E:/UVM/Synch_FIFO/tb/fifo_agent//fifo_sequencer.svh|E:/UVM/Synch_FIFO/tb/seq_lib//fifo_read_sequence.svh|E:/UVM/Synch_FIFO/tb/seq_lib//fifo_write_sequence.svh|E:/UVM/Synch_FIFO/tb/seq_lib//fifo_base_sequence.svh|E:/UVM/Synch_FIFO/tb/fifo_agent//fifo_sequence_item.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_deprecated_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_reg_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_callback_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_sequence_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/tlm1/uvm_tlm_imps.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_tlm_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_printer_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_object_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_phase_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_message_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/macros/uvm_version_defines.svh|D:/questasim_10.0b/uvm-1.0p1/../verilog_src/uvm-1.0p1/src/uvm_macros.svh|E:/UVM/Synch_FIFO/tb/fifo_top.sv|E:/UVM/Synch_FIFO/tb/fifo_agent/synch_fifo_intf.sv|E:/UVM/Synch_FIFO/tb/fifo_pkg.sv|
+Z36 !s90 -f|fifo_tb.f|
+Z37 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z38 !s92 +incdir+E:/UVM/Synch_FIFO/ +incdir+E:/UVM/Synch_FIFO/tb/ +incdir+E:/UVM/Synch_FIFO/tb/fifo_agent/ +incdir+E:/UVM/Synch_FIFO/tb/seq_lib/ -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z39 !s100 F?Xn0lU_Z7fCVMo8Bh6zk2
+!s85 0
+vfifo_top
+R1
+R2
+Z40 DXx4 work 8 fifo_pkg 0 22 `kSl39lQJ@7F4HI_1iGA<3
+Z41 DXx4 work 16 fifo_top_sv_unit 0 22 3gzMZMT_`KaPFgDW2oZY=1
+Z42 V=:UQhbAzWa8FBeRT<5W[72
+r1
+31
+Z43 IFWg1;fzSB`P8@=[PR@OmE1
+S1
+R5
+Z44 w1691892176
+Z45 8E:/UVM/Synch_FIFO/tb/fifo_top.sv
+Z46 FE:/UVM/Synch_FIFO/tb/fifo_top.sv
+L0 6
+R33
+R34
+R35
+R36
+R37
+R38
+Z47 !s100 ^e?3`QE8K?[N?O8k@<PUN1
+Z48 !s105 fifo_top_sv_unit
+!s85 0
+Xfifo_top_sv_unit
+R1
+R2
+R40
+Z49 V3gzMZMT_`KaPFgDW2oZY=1
+r1
+31
+Z50 I3gzMZMT_`KaPFgDW2oZY=1
+S1
+R5
+R44
+R45
+R46
+L0 3
+R33
+R34
+R35
+R36
+R37
+R38
+Z51 !s100 47TT@AY=IGoiW@6Jc1QiC3
+!s85 0
+!i103 1
+vsynch_fifo
+Z52 IfAb50BFb8zQi7EjfQAek`0
+Z53 V7fVoa1<^E8jlJfdgJNBCA0
+R5
+Z54 w1691956792
+Z55 8E:/UVM/Synch_FIFO/rtl/synch_fifo.v
+Z56 FE:/UVM/Synch_FIFO/rtl/synch_fifo.v
+L0 1
+R33
+r1
+31
+R37
+Z57 !s100 ;W3SVe]An>3CUGjAWUIk[3
+Z58 !s108 1691971841.392000
+Z59 !s107 E:/UVM/Synch_FIFO/rtl/synch_fifo.v|
+Z60 !s90 -f|fifo_dut.f|
+Z61 !s92 +incdir+E:/UVM/Synch_FIFO/rtl/ -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s85 0
+Ysynch_fifo_intf
+R1
+Z62 IzCMh`h9V:k5<4BQhDj[`W0
+Z63 V@ieBh1<z]^OD>3dZX<^3h3
+S1
+R5
+Z64 w1691851772
+Z65 8E:/UVM/Synch_FIFO/tb/fifo_agent/synch_fifo_intf.sv
+Z66 FE:/UVM/Synch_FIFO/tb/fifo_agent/synch_fifo_intf.sv
+L0 1
+R33
+r1
+31
+R34
+R35
+R36
+R37
+R38
+Z67 !s100 XP=GooR4B_Ql2D6fko7mV3
+Z68 !s105 synch_fifo_intf_sv_unit
+!s85 0
+Ttop_opt
+VA6ZS2_mYeR[L6j]GCH8@?2
+Z69 04 8 4 work fifo_top fast 0
+Z70 o+acc +cover=sbecf+synch_fifo(rtl).
+Z71 ntop_opt
+Z72 OE;O;10.0b;49
+R5
+Ttop_opt_dbg
+Z73 VM18nLn>6k1oK3[oKkYG[M2
+R69
+Z74 o-debugdb +acc +cover=sbecf+synch_fifo(rtl). -pa_clean
+Z75 ntop_opt_dbg
+R72
+R5

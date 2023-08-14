@@ -1,0 +1,47 @@
+COVERGROUP COVERAGE:
+------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric      Goal/ Status                      
+                                                                At Least                             
+------------------------------------------------------------------------------------------------------
+ TYPE /fifo_pkg/fifo_coverage_collector/cov1           100.0%        100 Covered                   
+      Coverpoint cov1::cov_wr_en_p                       100.0%        100 Covered                   
+      Coverpoint cov1::cov_rd_en_p                       100.0%        100 Covered                   
+      Coverpoint cov1::cov_full_p                        100.0%        100 Covered                   
+      Coverpoint cov1::cov_empty_p                       100.0%        100 Covered                   
+      Cross cov1::#cross__0#                             100.0%        100 Covered                   
+   Covergroup instance \/fifo_pkg::fifo_coverage_collector::cov1  
+                                                       100.0%        100 Covered                   
+      Coverpoint cov_wr_en_p                             100.0%        100 Covered                   
+          covered/total bins:                                 4          4                           
+          missing/total bins:                                 0          4                           
+          bin wr_en_1                                       161          1 Covered                   
+          bin wr_en_0                                       453          1 Covered                   
+          bin wr_en_1_0                                       1          1 Covered                   
+          bin wr_en_0_1                                       2          1 Covered                   
+      Coverpoint cov_rd_en_p                             100.0%        100 Covered                   
+          covered/total bins:                                 4          4                           
+          missing/total bins:                                 0          4                           
+          bin rd_en_1                                       444          1 Covered                   
+          bin rd_en_0                                       170          1 Covered                   
+          bin rd_en_1_0                                       8          1 Covered                   
+          bin rd_en_0_1                                       8          1 Covered                   
+      Coverpoint cov_full_p                              100.0%        100 Covered                   
+          covered/total bins:                                 2          2                           
+          missing/total bins:                                 0          2                           
+          bin full_1                                         23          1 Covered                   
+          bin full_0                                        591          1 Covered                   
+      Coverpoint cov_empty_p                             100.0%        100 Covered                   
+          covered/total bins:                                 2          2                           
+          missing/total bins:                                 0          2                           
+          bin empty_1                                       326          1 Covered                   
+          bin empty_0                                       288          1 Covered                   
+      Cross #cross__0#                                   100.0%        100 Covered                   
+          covered/total bins:                                 3          3                           
+          missing/total bins:                                 0          3                           
+          ignore_bin wr_rd_en_11                              0            ZERO                      
+          bin wr_rd_en_00                                     9          1 Covered                   
+          bin wr_rd_en_10                                   161          1 Covered                   
+          bin wr_rd_en_01                                   444          1 Covered                   
+  
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 1
+

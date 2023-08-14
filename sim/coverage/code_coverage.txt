@@ -1,0 +1,19 @@
+Coverage Report Summary Data by file
+
+File: E:/UVM/Synch_FIFO/rtl/synch_fifo.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       21        20         1      95.2
+    Branches                    13        12         1      92.3
+    FEC Condition Terms          4         4         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+
+
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 1
+
+
+NEVER FAILED: 100.0%  ASSERTIONS: 25
+
+
