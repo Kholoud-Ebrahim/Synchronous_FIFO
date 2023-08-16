@@ -8,16 +8,17 @@ In a Synchronous FIFO, the write and read to the FIFO happen on a single clock. 
 
 ## Synchronous FIFO Block Diagram
 ![image](https://github.com/UserImages/user_images/blob/main/fifo.PNG)
-### Input Signals
-  `clk` system clock  
-  `rst` active high synchronous reset  
-  `data_in` write data  
-  `wr_en` write enable  
-  `rd_en` read enable  
-### Output Signals
-  `data_out` read data  
-  `full` FIFO is full  
-  `empty` FIFO is empty  
+| Signal   |    Description                 | Direction|
+|----------|--------------------------------|----------|
+| clk      | system clock                   | input    | 
+| rst      | active high synchronous reset  | input    | 
+| data_in  | write data                     | input    | 
+| wr_en    | write enable                   | input    | 
+| rd_en    | read enable                    | input    |
+| data_out | read data                      | output   |
+| full     | FIFO is full                   | output   |
+| empty    | FIFO is empty                  | output   |
+--------------------------------------------------------
 ## Synchronous FIFO Operation
 ### 1. FIFO write operation
 FIFO can write the `data_in` at every posedge of the `clock` based on `wr_e`n signal till it is `full`. The write pointer gets incremented on every data write in FIFO memory.
