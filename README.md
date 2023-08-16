@@ -18,6 +18,7 @@ In a Synchronous FIFO, the write and read to the FIFO happen on a single clock. 
 | data_out | read data                      | output   |
 | full     | FIFO is full                   | output   |
 | empty    | FIFO is empty                  | output   |
+
 ## Synchronous FIFO Operation
 ### 1. FIFO write operation
 FIFO can write the `data_in` at every posedge of the `clock` based on `wr_e`n signal till it is `full`. The write pointer gets incremented on every data write in FIFO memory.
