@@ -1,4 +1,4 @@
-class fifo_base_sequence extends uvm_sequence;
+class fifo_base_sequence extends uvm_sequence #(fifo_sequence_item);
     `uvm_object_utils(fifo_base_sequence)
 
     fifo_sequence_item  fifo_item;
